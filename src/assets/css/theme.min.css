@@ -3096,13 +3096,27 @@ input[type="checkbox"] {
     margin-left: auto;
     margin-right: auto;
   }
-.radioLabel p:first-child:before{
+.radioLabel p:first-child:before,.radioLabel p:nth-child(3):before{
     right: 0;
     left: auto;
+    bottom: -2vw;
  }
 .radioLabel p:last-child:before{
    left: 0;
    right: auto;
+   bottom: -2vw;
+}
+.radioLabel p:nth-child(4){
+    right: -16px;
+}
+.radioLabel p:nth-child(3){
+    right: -16px;
+}
+.radioLabel p:nth-child(3)::before{
+    right: 21px;
+}
+.radioLabel p:nth-child(2){
+    right: -10px;
 }
 .input-group {
     position: relative;
@@ -16047,10 +16061,6 @@ div.code-toolbar > .toolbar button:hover {
 .table.table-dark > :not(:last-child) > :last-child > * {
     border-bottom-color: rgba(255, 255, 255, 0.5);
 }
-form.rounded-8vw.p-4.shadow.flex-grow-1.flex-shrink-0 {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-}
 form.rounded-8vw.p-4.shadow.flex-grow-1.flex-shrink-0 > div{
     padding: 1.5vw !important;
     border-radius: .8vw;
@@ -25043,4 +25053,21 @@ input[type=radio]{
 }
 label{
     font-size: 1vw !important;
+}
+
+/* new styles */
+.w-51vw{
+    width: 51vw;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.right-15{
+    right: 15px!important;
+}
+.-right-18{
+    right: -18px!important;
+}
+.-bottom-1vw::before{
+    bottom: -1vw!important;
 }
