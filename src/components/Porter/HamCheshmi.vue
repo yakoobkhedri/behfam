@@ -308,7 +308,7 @@
               ></apexchart>
             </div>
           </div>
-          <button class="btn btn-success mx-auto d-block fw-bold">ذخیره</button>
+          <button @click="showData" class="btn btn-success mx-auto d-block fw-bold">ذخیره</button>
         </div>
       </section>
     </aos-vue>
@@ -319,6 +319,9 @@
 <script>
 export default {
   methods: {
+    showData(){
+      console.log(this.series[0].data[0],this.series[0].data[1],this.series[0].data[2],this.series[0].data[3],this.series[0].data[4],this.series[0].data[5]);
+    },
     updateChartData(index) {
       this.selectedOption = index;
       this.series[0].data[0] = index;

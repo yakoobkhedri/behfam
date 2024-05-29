@@ -238,7 +238,7 @@
 export default {
   methods: {
     showData(){
-      console.log(this.series[0].data)
+      console.log(this.series[0].data[0],this.series[0].data[1],this.series[0].data[2],this.series[0].data[3]);
     },
     updateChartData(index) {
       this.selectedOption = index;
