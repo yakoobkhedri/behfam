@@ -84,13 +84,13 @@
                           <div
                             v-for="(n, index) in 5"
                             :key="index"
-                            :class="{ active: selectedOption === n }"
+                            :class="{ active: selectedOption2 === n }"
                             class="position-relative border rounded-1 border-dark bg-secondary w-2vw h-2vw d-flex align-items-center justify-content-center"
                           >
                             <input
                               :value="n"
-                              v-model="selectedOption"
-                              @change="updateChartData(index + 1)"
+                              v-model="selectedOption2"
+                              @change="updateChartData2(index + 1)"
                               type="radio"
                               name="radio"
                               class="position-absolute opacity-none top-0 end-0 bottom-0 start-0 w-100 h-100 cursor-pointer"
@@ -133,13 +133,13 @@
                           <div
                             v-for="(n, index) in 5"
                             :key="index"
-                            :class="{ active: selectedOption === n }"
+                            :class="{ active: selectedOption3 === n }"
                             class="position-relative border rounded-1 border-dark bg-secondary w-2vw h-2vw d-flex align-items-center justify-content-center"
                           >
                             <input
                               :value="n"
-                              v-model="selectedOption"
-                              @change="updateChartData(index + 1)"
+                              v-model="selectedOption3"
+                              @change="updateChartData3(index + 1)"
                               type="radio"
                               name="radio"
                               class="position-absolute opacity-none top-0 end-0 bottom-0 start-0 w-100 h-100 cursor-pointer"
@@ -181,13 +181,13 @@
                           <div
                             v-for="(n, index) in 5"
                             :key="index"
-                            :class="{ active: selectedOption === n }"
+                            :class="{ active: selectedOption4 === n }"
                             class="position-relative border rounded-1 border-dark bg-secondary w-2vw h-2vw d-flex align-items-center justify-content-center"
                           >
                             <input
                               :value="n"
-                              v-model="selectedOption"
-                              @change="updateChartData(index + 1)"
+                              v-model="selectedOption4"
+                              @change="updateChartData4(index + 1)"
                               type="radio"
                               name="radio"
                               class="position-absolute opacity-none top-0 end-0 bottom-0 start-0 w-100 h-100 cursor-pointer"
@@ -229,13 +229,13 @@
                           <div
                             v-for="(n, index) in 5"
                             :key="index"
-                            :class="{ active: selectedOption === n }"
+                            :class="{ active: selectedOption5 === n }"
                             class="position-relative border rounded-1 border-dark bg-secondary w-2vw h-2vw d-flex align-items-center justify-content-center"
                           >
                             <input
                               :value="n"
-                              v-model="selectedOption"
-                              @change="updateChartData(index + 1)"
+                              v-model="selectedOption5"
+                              @change="updateChartData5(index + 1)"
                               type="radio"
                               name="radio"
                               class="position-absolute opacity-none top-0 end-0 bottom-0 start-0 w-100 h-100 cursor-pointer"
@@ -277,13 +277,13 @@
                           <div
                             v-for="(n, index) in 5"
                             :key="index"
-                            :class="{ active: selectedOption === n }"
+                            :class="{ active: selectedOption6 === n }"
                             class="position-relative border rounded-1 border-dark bg-secondary w-2vw h-2vw d-flex align-items-center justify-content-center"
                           >
                             <input
                               :value="n"
-                              v-model="selectedOption"
-                              @change="updateChartData(index + 1)"
+                              v-model="selectedOption6"
+                              @change="updateChartData6(index + 1)"
                               type="radio"
                               name="radio"
                               class="position-absolute opacity-none top-0 end-0 bottom-0 start-0 w-100 h-100 cursor-pointer"
@@ -318,8 +318,40 @@
 
 <script>
 export default {
+  methods: {
+    updateChartData(index) {
+      this.selectedOption = index;
+      this.series[0].data[0] = index;
+    },
+    updateChartData2(index) {
+      this.selectedOption2 = index;
+      this.series[0].data[1] = index;
+    },
+    updateChartData3(index) {
+      this.selectedOption3 = index;
+      this.series[0].data[2] = index;
+    },
+    updateChartData4(index) {
+      this.selectedOption4 = index;
+      this.series[0].data[3] = index;
+    },
+    updateChartData5(index) {
+      this.selectedOption5 = index;
+      this.series[0].data[4] = index;
+    },
+    updateChartData6(index) {
+      this.selectedOption6 = index;
+      this.series[0].data[5] = index;
+    },
+  },
   data: function () {
     return {
+      selectedOption: 5,
+      selectedOption2: 3,
+      selectedOption3: 5,
+      selectedOption4: 4,
+      selectedOption5: 4,
+      selectedOption6: 4,
       options: {
         markers: {
           size: 5,
@@ -368,7 +400,7 @@ export default {
       series: [
         {
           name: "Vue Chart",
-          data: [5, 3, 5, 4, 5,5],
+          data: [5, 3, 5, 4, 4,4],
         },
       ],
     };
