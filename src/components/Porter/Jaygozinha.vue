@@ -219,14 +219,14 @@
             <div class="mt-5 col-5 flex-grow-1 flex-shrink-0">
               <apexchart
                 width="700"
-                class="w-40"
+                class="w-100"
                 type="radar"
                 :options="options"
                 :series="series"
               ></apexchart>
             </div>
           </div>
-          <button class="btn btn-success mx-auto d-block fw-bold">ذخیره</button>
+          <button @click="showData" class="btn btn-success mx-auto d-block fw-bold">ذخیره</button>
         </div>
       </section>
     </aos-vue>
@@ -237,6 +237,9 @@
 <script>
 export default {
   methods: {
+    showData(){
+      console.log(this.series[0].data)
+    },
     updateChartData(index) {
       this.selectedOption = index;
       this.series[0].data[0] = index;
