@@ -8517,6 +8517,9 @@ fieldset:disabled .btn {
 .h-25 {
     height: 25% !important;
 }
+.h-40vw {
+    height: 40vw !important;
+}
 .h-40 {
     height: 40px !important;
 }
@@ -25074,4 +25077,8 @@ label{
 }
 .-bottom-1vw::before{
     bottom: -1vw!important;
+}
+.btn-success{
+    font-size: 1.2vw;
+    border-radius: .5vw;
 }

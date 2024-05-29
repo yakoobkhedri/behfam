@@ -491,8 +491,7 @@
             </form>
             <div class="mt-5 flex-grow-1 flex-shrink-0">
               <apexchart
-                width="700"
-                class="w-40"
+                class="w-40 h-40vw"
                 type="radar"
                 :options="options"
                 :series="series"
