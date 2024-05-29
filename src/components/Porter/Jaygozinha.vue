@@ -14,7 +14,7 @@
               <div class="shadow rounded-8vw p-4 bg-white">
                 <div class="mb-3">
                   <label class="fs-1-2vw text-dark fw-bold"
-                    >1-ﻭﺟﻮﺩ ﺟﺎﯾگﺰﯾﻦ ﻫﺎی ﻧﺰﺩﯾک را چطور ارزیابی می کنید؟</label
+                    >1-ﻭﺟﻮﺩ ﺟﺎﯾگزﯾﻦ ﻫﺎی ﻧﺰﺩﯾک را چطور ارزیابی می کنید؟</label
                   >
                   <div class="mt-3">
                     <div
@@ -64,7 +64,7 @@
                 </div>
                 <div class="mb-3">
                   <label class="fs-1-2vw text-dark fw-bold"
-                    >2- ﻫﺰﯾﻨﻪ ﺗﻐﯿﯿﺮ کﺎﺭﺑﺮی ﺑﺮﺍی ﻣﺼﺮﻑ کﻨﻨﺪگاﻥ را چطور ارزیابی می
+                    >2- ﻫﺰﯾﻨﻪ ﺗﻐﯿﯿﺮ کاﺭﺑﺮی ﺑﺮﺍی ﻣﺼﺮﻑ کﻨﻨﺪگاﻥ را چطور ارزیابی می
                     کنید؟</label
                   >
                   <div class="mt-3">
@@ -115,7 +115,7 @@
                 </div>
                 <div class="mb-3">
                   <label class="fs-1-2vw text-dark fw-bold"
-                    >3-ﺳﻮﺩﺁﻭﺭی ﻭ ﺗﻬﺎﺟﻤی ﺑﻮﺩﻥ ﺟﺎﯾگﺰﯾﻦ ﻫﺎ ﺑﺮﺍی ﺗﻮﻟﯿﺪ کﻨﻨﺪﻩﻫﺎ را
+                    >3-ﺳﻮﺩﺁﻭﺭی ﻭ ﺗﻬﺎﺟمی ﺑﻮﺩﻥ ﺟﺎﯾگزﯾﻦ ﻫﺎ ﺑﺮﺍی ﺗﻮﻟﯿﺪ کﻨﻨﺪﻩﻫﺎ را
                     چطور ارزیابی می کنید؟</label
                   >
                   <div class="mt-3">
@@ -166,7 +166,7 @@
                 </div>
                 <div class="mb-3">
                   <label class="fs-1-2vw text-dark fw-bold"
-                    >4-ﻗﯿﻤﺖ ﯾﺎﺍﺭﺯﺵ ﺟﺎﯾگﺰﯾﻦ ﻫﺎ را چطور ارزیابی می کنید؟</label
+                    >4-ﻗﯿﻤﺖ ﯾﺎﺍﺭﺯﺵ ﺟﺎﯾگزﯾﻦ ﻫﺎ را چطور ارزیابی می کنید؟</label
                   >
                   <div class="mt-3">
                     <div

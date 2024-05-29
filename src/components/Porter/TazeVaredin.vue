@@ -153,7 +153,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >4-ﻫﺰﯾﻨﻪ ﺗﻐﯿﯿﺮ کﺎﺭﺑﺮی را چطور ارزیابی می کنید؟</label
+                  >4-ﻫﺰﯾﻨﻪ ﺗﻐﯿﯿﺮ کاﺭﺑﺮی را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -201,7 +201,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >5-ﺩﺳﺘﺮﺳی ﺑﻪ ﻣﺠﺎﺭی ﺗﻮﺯﯾﻊ را چطور ارزیابی می کنید؟</label
+                  >5-ﺩﺳﺘﺮسی ﺑﻪ ﻣﺠﺎﺭی ﺗﻮﺯﯾﻊ را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -297,7 +297,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >7-ﺩﺳﺘﺮﺳی ﺑﻪﺁﺧﺮﯾﻦ ﺗکﻨﻮﻟﻮژی را چطور ارزیابی می کنید؟</label
+                  >7-ﺩﺳﺘﺮسی ﺑﻪ ﺁﺧﺮﯾﻦ ﺗکنوﻟﻮژی را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -345,7 +345,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >8-ﺩﺳﺘﺮﺳی ﺑﻪ ﻣﻮﺍﺩ ﺧﺎﻡ را چطور ارزیابی می کنید؟</label
+                  >8-ﺩﺳﺘﺮسی ﺑﻪ ﻣﻮﺍﺩ ﺧﺎﻡ را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -441,7 +441,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >10-ﺍﺛﺮ ﺗﺠﺮﺑﻪ ﻭ ﯾﺎﺩگﯿﺮی را چطور ارزیابی می کنید؟</label
+                  >10-ﺍﺛﺮ ﺗﺠﺮﺑﻪ ﻭ ﯾﺎﺩگیری را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -499,6 +499,7 @@
               ></apexchart>
             </div>
           </div>
+          <button class="btn btn-success mx-auto d-block fw-bold">ذخیره</button>
         </div>
       </section>
     </aos-vue>

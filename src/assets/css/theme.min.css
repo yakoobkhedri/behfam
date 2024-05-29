@@ -25068,6 +25068,9 @@ label{
 .-right-18{
     right: -18px!important;
 }
+.-bottom-1vw.start-0::before{
+    bottom: -1vw!important;
+}
 .-bottom-1vw::before{
     bottom: -1vw!important;
 }

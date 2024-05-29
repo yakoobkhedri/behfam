@@ -57,7 +57,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >2- ﺭﺷﺪ ﻧﺴﺒی ﺻﻨﻌﺖ را چطور ارزیابی می کنید؟</label
+                  >2- ﺭﺷﺪ ﻧﺴبی ﺻﻨﻌﺖ را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -105,7 +105,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >3-ﻫﺰﯾﻨﻪ ﺛﺎﺑﺖ ﯾﺎﺍﻧﺒﺎﺭ کﺮﺩﻥ را چطور ارزیابی
+                  >3-ﻫﺰﯾﻨﻪ ﺛﺎﺑﺖ ﯾﺎ ﺍﻧﺒﺎﺭ کرﺩﻥ را چطور ارزیابی
                 می کنید؟</label
                 >
                 <div class="mt-3">

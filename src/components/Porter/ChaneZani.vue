@@ -20,7 +20,7 @@
                           >
                             <p class="mb-0 text-end -bottom-1vw">قدرت چانه زنی<br> بالا</p>
                             <p class="mb-0 -right-18">قدرت چانه زنی<br> نسبتا بالا</p>
-                            <p class="mb-0 start-0">قدرت<br> بی تفاوت</p>
+                            <p class="mb-0 start-0 -bottom-1vw">قدرت<br> بی تفاوت</p>
                             <p class="mb-0 right-15">قدرت چانه زنی<br> نسبتا کم</p>
                             <p class="mb-0 text-start -bottom-1vw">قدرت چانه زنی<br> کم</p>
                           </div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="mb-3">
                   <label class="fs-1-2vw text-dark fw-bold"
-                    >2- ﻭﺟﻮﺩ ﺟﺎﯾگﺰﯾﻦ ﺑﺮﺍی ﺗﻮﻟﯿﺪﺍﺕ ﺻﻨﻌﺖ را چطور ارزیابی می کنید؟</label
+                    >2- ﻭﺟﻮﺩ ﺟﺎﯾگزﯾﻦ ﺑﺮﺍی ﺗﻮﻟﯿﺪﺍﺕ ﺻﻨﻌﺖ را چطور ارزیابی می کنید؟</label
                   >
                   <div class="mt-3">
                       <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -62,7 +62,7 @@
                           >
                             <p class="mb-0 text-end -bottom-1vw">قدرت چانه زنی<br> بالا</p>
                             <p class="mb-0 -right-18">قدرت چانه زنی<br> نسبتا بالا</p>
-                            <p class="mb-0 start-0">قدرت<br> بی تفاوت</p>
+                            <p class="mb-0 start-0 -bottom-1vw">قدرت<br> بی تفاوت</p>
                             <p class="mb-0 right-15">قدرت چانه زنی<br> نسبتا کم</p>
                             <p class="mb-0 text-start -bottom-1vw">قدرت چانه زنی<br> کم</p>
                           </div>
@@ -93,7 +93,7 @@
                 </div>
                 <div class="mb-3">
                   <label class="fs-1-2vw text-dark fw-bold"
-                    >3-ﻫﺰﯾﻨﻪ ﺗﻐﯿﯿﺮ کﺎﺭﺑﺮی ﺑﺮﺍی ﺧﺮﯾﺪﺍﺭﺍﻥ را چطور ارزیابی
+                    >3-ﻫﺰﯾﻨﻪ ﺗﻐﯿﯿﺮ کاﺭﺑﺮی ﺑﺮﺍی ﺧﺮﯾﺪﺍﺭﺍﻥ را چطور ارزیابی
                   می کنید؟</label
                   >
                   <div class="mt-3">
@@ -105,7 +105,7 @@
                           >
                             <p class="mb-0 text-end -bottom-1vw">قدرت چانه زنی<br> بالا</p>
                             <p class="mb-0 -right-18">قدرت چانه زنی<br> نسبتا بالا</p>
-                            <p class="mb-0 start-0">قدرت<br> بی تفاوت</p>
+                            <p class="mb-0 start-0 -bottom-1vw">قدرت<br> بی تفاوت</p>
                             <p class="mb-0 right-15">قدرت چانه زنی<br> نسبتا کم</p>
                             <p class="mb-0 text-start -bottom-1vw">قدرت چانه زنی<br> کم</p>
                           </div>
@@ -147,7 +147,7 @@
                           >
                             <p class="mb-0 text-end -bottom-1vw">قدرت چانه زنی<br> بالا</p>
                             <p class="mb-0 -right-18">قدرت چانه زنی<br> نسبتا بالا</p>
-                            <p class="mb-0 start-0">قدرت<br> بی تفاوت</p>
+                            <p class="mb-0 start-0 -bottom-1vw">قدرت<br> بی تفاوت</p>
                             <p class="mb-0 right-15">قدرت چانه زنی<br> نسبتا کم</p>
                             <p class="mb-0 text-start -bottom-1vw">قدرت چانه زنی<br> کم</p>
                           </div>
@@ -189,7 +189,7 @@
                           >
                             <p class="mb-0 text-end -bottom-1vw">قدرت چانه زنی<br> بالا</p>
                             <p class="mb-0 -right-18">قدرت چانه زنی<br> نسبتا بالا</p>
-                            <p class="mb-0 start-0">قدرت<br> بی تفاوت</p>
+                            <p class="mb-0 start-0 -bottom-1vw">قدرت<br> بی تفاوت</p>
                             <p class="mb-0 right-15">قدرت چانه زنی<br> نسبتا کم</p>
                             <p class="mb-0 text-start -bottom-1vw">قدرت چانه زنی<br> کم</p>
                           </div>
@@ -231,7 +231,7 @@
                           >
                             <p class="mb-0 text-end -bottom-1vw">قدرت چانه زنی<br> بالا</p>
                             <p class="mb-0 -right-18">قدرت چانه زنی<br> نسبتا بالا</p>
-                            <p class="mb-0 start-0">قدرت<br> بی تفاوت</p>
+                            <p class="mb-0 start-0 -bottom-1vw">قدرت<br> بی تفاوت</p>
                             <p class="mb-0 right-15">قدرت چانه زنی<br> نسبتا کم</p>
                             <p class="mb-0 text-start -bottom-1vw">قدرت چانه زنی<br> کم</p>
                           </div>
@@ -273,7 +273,7 @@
                           >
                             <p class="mb-0 text-end -bottom-1vw">قدرت چانه زنی<br> بالا</p>
                             <p class="mb-0 -right-18">قدرت چانه زنی<br> نسبتا بالا</p>
-                            <p class="mb-0 start-0">قدرت<br> بی تفاوت</p>
+                            <p class="mb-0 start-0 -bottom-1vw">قدرت<br> بی تفاوت</p>
                             <p class="mb-0 right-15">قدرت چانه زنی<br> نسبتا کم</p>
                             <p class="mb-0 text-start -bottom-1vw">قدرت چانه زنی<br> کم</p>
                           </div>

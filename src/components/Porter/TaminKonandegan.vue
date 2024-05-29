@@ -9,7 +9,7 @@
               <div class="shadow rounded-8vw p-4 bg-white">
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                >1-ﺗﻌﺪﺍﺩ ﻋﺮﺿﻪ کﻨﻨﺪﻩﻫﺎی ﻣﻬﻢ را چطور ارزیابی می کنید؟</label
+                >1-ﺗﻌﺪﺍﺩ ﻋﺮﺿﻪ کنندﻩﻫﺎی ﻣﻬﻢ را چطور ارزیابی می کنید؟</label
               >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -57,7 +57,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >2- ﻭﺟﻮﺩ ﺟﺎﯾگﺰﯾﻦ ﺑﺮﺍی ﻣﺤﺼﻮﻻﺕ ﻋﺮﺿﻪ کﻨﻨﺪﻩﻫﺎ را چطور ارزیابی می کنید؟</label
+                  >2- ﻭﺟﻮﺩ ﺟﺎیگزین ﺑﺮﺍی ﻣﺤﺼﻮﻻﺕ ﻋﺮﺿﻪ کﻨﻨﺪﻩﻫﺎ را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -105,7 +105,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >3-ﺗﻨﻮﻉ ﯾﺎ ﻫﺰﯾﻨﻪ ﺗﻐﯿﯿﺮ کﺎﺭﺑﺮی ﺗﻮﻟﯿﺪﺍﺕ ﻋﺮﺿﻪ کﻨﻨﺪﻫﺎ را چطور ارزیابی
+                  >3-ﺗﻨﻮﻉ ﯾﺎ ﻫﺰﯾﻨﻪ ﺗﻐﯿﯿﺮ کاﺭﺑﺮی ﺗﻮﻟﯿﺪﺍﺕ ﻋﺮﺿﻪ کننده ﻫﺎ را چطور ارزیابی
                 می کنید؟</label
                 >
                 <div class="mt-3">
@@ -154,7 +154,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >4-ﺗﻬﺪﯾﺪ ﻋﺮﺿﻪ کﻨﻨﺪﻩﻫﺎ ﺑﻪ ﺗﺮکﯿﺐ پاﯾﯿﻦ ﺩﺳﺘی را چطور ارزیابی می کنید؟</label
+                  >4-ﺗﻬﺪﯾﺪ ﻋﺮﺿﻪ کﻨﻨﺪﻩﻫﺎ ﺑﻪ ﺗﺮکﯿﺐ پاﯾﯿﻦ ﺩﺳتی را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -202,7 +202,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >5-ﺳﻬﻢﻋﺮﺿﻪ کﻨﻨﺪﻩﻫﺎ ﺩﺭ کﯿﻔﯿﺖ ﯾﺎ ﺧﺪﻣﺖ را چطور ارزیابی می کنید؟</label
+                  >5-ﺳﻬﻢﻋﺮﺿﻪ کنندﻩﻫﺎ ﺩﺭ کﯿﻔﯿﺖ ﯾﺎ ﺧﺪﻣﺖ را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -250,7 +250,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >6-ﺳﻬﻢ ﻋﺮﺿﻪ کﻨﻨﺪﻩﻫﺎ ﺩﺭ کﻞ ﻫﺰﯾﻨﻪ ﺻﻨﻌﺖ را چطور ارزیابی می کنید؟</label
+                  >6-ﺳﻬﻢ ﻋﺮﺿﻪ کنندﻩﻫﺎ ﺩﺭ کﻞ ﻫﺰﯾﻨﻪ ﺻﻨﻌﺖ را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -298,7 +298,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >7-ﺍﻫﻤﯿﺖ ﺻﻨﻌﺖ ﺩﺭ کﺴﺐ ﺳﻮﺩ ﻋﺮﺿﻪ کﻨﻨﺪﻩﻫﺎ را چطور ارزیابی می کنید؟</label
+                  >7-ﺍﻫﻤﯿﺖ ﺻﻨﻌﺖ ﺩﺭ کسب ﺳﻮﺩ ﻋﺮﺿﻪ کنندﻩﻫﺎ را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -356,6 +356,7 @@
               ></apexchart>
             </div>
           </div>
+          <button class="btn btn-success mx-auto d-block fw-bold">ذخیره</button>
         </div>
       </section>
     </aos-vue>

@@ -9,7 +9,7 @@
               <div class="shadow rounded-8vw p-4 bg-white">
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                >1-ﺗﺨﺼﺼی ﺑﻮﺩﻥ ﺩﺍﺭﺍﯾی ﻫﺎ را چطور ارزیابی می کنید؟</label
+                >1-ﺗﺨصصی ﺑﻮﺩﻥ ﺩﺍﺭﺍیی ﻫﺎ را چطور ارزیابی می کنید؟</label
               >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -105,7 +105,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >3-ﺭﻭﺍﺑﻂ ﻣﺘﻘﺎﺑﻞ ﺍﺳﺘﺮﺍﺗژﯾک ﺑﺎ ﺳﺎﯾﺮ ﺭﺷﺘﻪﻫﺎی کﺎﺭی را چطور ارزیابی
+                  >3-ﺭﻭﺍﺑﻂ ﻣﺘﻘﺎﺑﻞ ﺍﺳﺘﺮﺍﺗژﯾک ﺑﺎ ﺳﺎﯾﺮ ﺭﺷﺘﻪﻫﺎی کاﺭی را چطور ارزیابی
                 می کنید؟</label
                 >
                 <div class="mt-3">
@@ -202,7 +202,7 @@
               </div>
               <div class="mb-3">
                 <label class="fs-1-2vw text-dark fw-bold"
-                  >5-ﻣﺤﺪﻭﺩﯾﺖ ﻫﺎی ﺩﻭﻟﺘی ﻭ ﺍﺟﺘﻤﺎﻋی را چطور ارزیابی می کنید؟</label
+                  >5-ﻣﺤﺪﻭﺩﯾﺖ ﻫﺎی ﺩﻭﻟتی ﻭ ﺍﺟﺘﻤﺎعی را چطور ارزیابی می کنید؟</label
                 >
                 <div class="mt-3">
                     <div class="d-flex align-items-end justify-content-between gap-4 fs-1-2vw mt-3">
@@ -260,6 +260,7 @@
               ></apexchart>
             </div>
           </div>
+          <button class="btn btn-success mx-auto d-block fw-bold">ذخیره</button>
         </div>
       </section>
     </aos-vue>
