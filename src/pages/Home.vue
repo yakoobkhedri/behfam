@@ -1,12 +1,13 @@
 <template>
     <div>
-      <TazeVaredin></TazeVaredin>
+      <!-- <TazeVaredin></TazeVaredin>
       <mavaneKhoroj></mavaneKhoroj>
       <HamCheshmi></HamCheshmi>
       <ChaneZani></ChaneZani>
       <TaminKonandegan></TaminKonandegan>
       <Jaygozinha></Jaygozinha>
-      <EghdamatDolat></EghdamatDolat>
+      <EghdamatDolat></EghdamatDolat> -->
+      <Siasi></Siasi>
     </div>
 </template>
 
@@ -18,6 +19,7 @@ import ChaneZani from '@/components/Porter/ChaneZani.vue'
 import TaminKonandegan from '@/components/Porter/TaminKonandegan.vue'
 import Jaygozinha from '@/components/Porter/Jaygozinha.vue'
 import EghdamatDolat from '@/components/Porter/EghdamatDolat.vue'
+import Siasi from '@/components/Pestel/Siasi.vue'
 
 </script>
 
