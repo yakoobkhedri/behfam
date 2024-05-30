@@ -72,8 +72,8 @@
          <div class="container p-4">
           <h2 class="text-center fw-bold py-4">ﺟﺪﻭﻝ ﺍﺭﺯﻳﺎﺑﻲ ﻣﻮﺍﺭﺩ ﻓﺮﺻﺖ ﻭ ﺗﻬﺪﻳﺪ ﻫﻠﺪﻳﻨگ/ﺷﺮکﺖ</h2>
           <h4 class="text-center fw-bold text-info">متغیر سیاسی</h4>
-           <div data-aos="fade-up" class="rounded-8vw text-center fs-1-1vw border shadow overflow-hidden"> 
-              <div class="bg-info text-white fw-bold row mx-0 align-items-cente border-bottom border-dark">
+           <div data-aos="fade-up" class="rounded-8vw text-center fs-1-1vw border border-dark shadow overflow-hidden"> 
+              <div class="bg-info text-dark fw-bold row mx-0 border-bottom border-dark">
                 <div class="col-1 th">ردیف</div>
                 <div class="col-1 th">شاخص ها</div>
                 <div class="col-2 th px-0 pb-0">
@@ -125,7 +125,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
+              <div class="bg-white text-dark fw-bold row mx-0 border-bottom border-dark">
                 <div class="col-1 th2 bg-info">1</div>
                 <div class="col-1 th2 bg-info border-end border-white">رابطه ایران با کشورهای هدف</div>
                 <div class="col-2 th2 p-0">
@@ -172,7 +172,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
+              <div class="bg-white text-dark fw-bold row mx-0 border-bottom border-dark">
                 <div class="col-1 th2 bg-info">2</div>
                 <div class="col-1 th2 bg-info border-end border-white">شرایط سیاسی کشورها</div>
                 <div class="col-2 th2 p-0">
@@ -219,7 +219,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
+              <div class="bg-white text-dark fw-bold row mx-0 border-bottom border-dark">
                 <div class="col-1 th2 bg-info">3</div>
                 <div class="col-1 th2 bg-info border-end border-white">تحریم</div>
                 <div class="col-2 th2 p-0">
@@ -266,7 +266,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
+              <div class="bg-white text-dark fw-bold row mx-0 border-bottom border-dark">
                 <div class="col-1 th2 bg-info">4</div>
                 <div class="col-1 th2 bg-info border-end border-white">تغییر و تحولات سیاسی داخلی</div>
                 <div class="col-2 th2 p-0">
@@ -313,7 +313,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
+              <div class="bg-white text-dark fw-bold row mx-0 border-bottom border-dark">
                 <div class="col-1 th2 bg-info">5</div>
                 <div class="col-1 th2 bg-info border-end border-white">سیاست ها و پیمان های منطقه ای و جهانی</div>
                 <div class="col-2 th2 p-0">
@@ -360,7 +360,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
+              <div class="bg-white text-dark fw-bold row mx-0 border-bottom border-dark">
                 <div class="col-1 th2 bg-info">6</div>
                 <div class="col-1 th2 bg-info border-end border-white">سیاست های صادرات</div>
                 <div class="col-2 th2 p-0">
@@ -407,7 +407,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
+              <div class="bg-white text-dark fw-bold row mx-0 border-bottom border-dark">
                 <div class="col-1 th2 bg-info">7</div>
                 <div class="col-1 th2 bg-info border-end border-white">سیاست های واردات</div>
                 <div class="col-2 th2 p-0">
@@ -454,8 +454,8 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
-                <div class="col-2 th2 bg-info border-end border-dark">مجموع</div>
+              <div class="bg-white text-dark fw-bold row mx-0">
+                <div class="col-2 th2 bg-info border-end border-end-0 border-dark">مجموع</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
                     <div class="row mx-0 h-100"> 
@@ -491,7 +491,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="col-1 th2 p-0 border-end border-dark">
+                <div class="col-1 th2 p-0">
                   <div class="w-100 h-100">
                       <div class="row mx-0 h-100"> 
                         <div class="col-6 border-end border-dark bg-info">مجموع امتیازها=</div>
