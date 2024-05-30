@@ -454,6 +454,52 @@
                   </div>
                 </div>
               </div>
+              <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
+                <div class="col-2 th2">مجموع</div>
+                <div class="col-2 th2 p-0">
+                  <div class="w-100 h-100">
+                    <div class="row mx-0 h-100"> 
+                      <div class="col-4 border-end border-dark"></div>
+                      <div class="col-4 border-end border-dark"></div>
+                      <div class="col-4"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1 th2 py-0">0</div>
+                <div class="col-1 th2 py-0">0.00</div>
+                <div class="col-3 th2 p-0">
+                  <div class="w-100 h-100">
+                    <div class="row mx-0 h-100"> 
+                      <div class="col-6 border-end border-dark"></div>
+                      <div class="col-6"></div>
+                    </div>
+                 </div>
+                </div>
+                <div class="col-1 th2 p-0">
+                  <div class="w-100 h-100">
+                      <div class="row mx-0 h-100"> 
+                        <div class="col-6 border-end border-dark">مجموع امتیازها=</div>
+                        <div class="col-6 th">0.00</div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-1 th2 p-0">
+                  <div class="w-100 h-100">
+                      <div class="row mx-0 h-100"> 
+                        <div class="col-6 border-end border-dark">مجموع امتیازها=</div>
+                        <div class="col-6 th">0.00</div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-1 th2 p-0">
+                  <div class="w-100 h-100">
+                      <div class="row mx-0 h-100"> 
+                        <div class="col-6 border-end border-dark">مجموع امتیازها=</div>
+                        <div class="col-6 th">0.00</div>
+                      </div>
+                  </div>
+                </div>
+              </div>
            </div>
          </div>
        </section>
