@@ -126,11 +126,11 @@
                 </div>
               </div>
               <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
-                <div class="col-1 th2">1</div>
-                <div class="col-1 th2">رابطه ایران با کشورهای هدف</div>
+                <div class="col-1 th2 bg-info">1</div>
+                <div class="col-1 th2 bg-info border-end border-white">رابطه ایران با کشورهای هدف</div>
                 <div class="col-2 th2 p-0">
-                  <div class="w-100">
-                    <div class="row mx-0"> 
+                  <div class="w-100 h-100">
+                    <div class="row mx-0 h-100"> 
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
@@ -173,11 +173,11 @@
                 </div>
               </div>
               <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
-                <div class="col-1 th2">2</div>
-                <div class="col-1 th2">شرایط سیاسی کشورها</div>
+                <div class="col-1 th2 bg-info">2</div>
+                <div class="col-1 th2 bg-info border-end border-white">شرایط سیاسی کشورها</div>
                 <div class="col-2 th2 p-0">
-                  <div class="w-100">
-                    <div class="row mx-0"> 
+                  <div class="w-100 h-100">
+                    <div class="row mx-0 h-100"> 
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
@@ -220,11 +220,11 @@
                 </div>
               </div>
               <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
-                <div class="col-1 th2">3</div>
-                <div class="col-1 th2">تحریم</div>
+                <div class="col-1 th2 bg-info">3</div>
+                <div class="col-1 th2 bg-info border-end border-white">تحریم</div>
                 <div class="col-2 th2 p-0">
-                  <div class="w-100">
-                    <div class="row mx-0"> 
+                  <div class="w-100 h-100">
+                    <div class="row mx-0 h-100"> 
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
@@ -267,11 +267,11 @@
                 </div>
               </div>
               <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
-                <div class="col-1 th2">4</div>
-                <div class="col-1 th2">تغییر و تحولات سیاسی داخلی</div>
+                <div class="col-1 th2 bg-info">4</div>
+                <div class="col-1 th2 bg-info border-end border-white">تغییر و تحولات سیاسی داخلی</div>
                 <div class="col-2 th2 p-0">
-                  <div class="w-100">
-                    <div class="row mx-0"> 
+                  <div class="w-100 h-100">
+                    <div class="row mx-0 h-100"> 
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
@@ -314,11 +314,11 @@
                 </div>
               </div>
               <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
-                <div class="col-1 th2">5</div>
-                <div class="col-1 th2">سیاست ها و پیمان های منطقه ای و جهانی</div>
+                <div class="col-1 th2 bg-info">5</div>
+                <div class="col-1 th2 bg-info border-end border-white">سیاست ها و پیمان های منطقه ای و جهانی</div>
                 <div class="col-2 th2 p-0">
-                  <div class="w-100">
-                    <div class="row mx-0"> 
+                  <div class="w-100 h-100">
+                    <div class="row mx-0 h-100"> 
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
@@ -361,11 +361,11 @@
                 </div>
               </div>
               <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
-                <div class="col-1 th2">6</div>
-                <div class="col-1 th2">سیاست های صادرات</div>
+                <div class="col-1 th2 bg-info">6</div>
+                <div class="col-1 th2 bg-info border-end border-white">سیاست های صادرات</div>
                 <div class="col-2 th2 p-0">
-                  <div class="w-100">
-                    <div class="row mx-0"> 
+                  <div class="w-100 h-100">
+                    <div class="row mx-0 h-100"> 
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
@@ -408,11 +408,11 @@
                 </div>
               </div>
               <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
-                <div class="col-1 th2">7</div>
-                <div class="col-1 th2">سیاست های واردات</div>
+                <div class="col-1 th2 bg-info">7</div>
+                <div class="col-1 th2 bg-info border-end border-white">سیاست های واردات</div>
                 <div class="col-2 th2 p-0">
-                  <div class="w-100">
-                    <div class="row mx-0"> 
+                  <div class="w-100 h-100">
+                    <div class="row mx-0 h-100"> 
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
                       <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
@@ -455,13 +455,13 @@
                 </div>
               </div>
               <div class="bg-white text-dark fw-bold row mx-0 align-items-cente border-bottom border-dark">
-                <div class="col-2 th2">مجموع</div>
+                <div class="col-2 th2 bg-info border-end border-dark">مجموع</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
                     <div class="row mx-0 h-100"> 
-                      <div class="col-4 border-end border-dark"></div>
-                      <div class="col-4 border-end border-dark"></div>
-                      <div class="col-4"></div>
+                      <div class="col-4 border-end border-dark bg-info"></div>
+                      <div class="col-4 border-end border-dark bg-info"></div>
+                      <div class="col-4 bg-info"></div>
                     </div>
                   </div>
                 </div>
@@ -470,31 +470,31 @@
                 <div class="col-3 th2 p-0">
                   <div class="w-100 h-100">
                     <div class="row mx-0 h-100"> 
-                      <div class="col-6 border-end border-dark"></div>
-                      <div class="col-6"></div>
+                      <div class="col-6 border-end border-dark bg-info"></div>
+                      <div class="col-6 bg-info"></div>
                     </div>
                  </div>
                 </div>
-                <div class="col-1 th2 p-0">
+                <div class="col-1 th2 p-0 border-end border-dark">
                   <div class="w-100 h-100">
                       <div class="row mx-0 h-100"> 
-                        <div class="col-6 border-end border-dark">مجموع امتیازها=</div>
+                        <div class="col-6 border-end border-dark bg-info">مجموع امتیازها=</div>
                         <div class="col-6 th">0.00</div>
                       </div>
                   </div>
                 </div>
-                <div class="col-1 th2 p-0">
+                <div class="col-1 th2 p-0 border-end border-dark">
                   <div class="w-100 h-100">
                       <div class="row mx-0 h-100"> 
-                        <div class="col-6 border-end border-dark">مجموع امتیازها=</div>
+                        <div class="col-6 border-end border-dark bg-info">مجموع امتیازها=</div>
                         <div class="col-6 th">0.00</div>
                       </div>
                   </div>
                 </div>
-                <div class="col-1 th2 p-0">
+                <div class="col-1 th2 p-0 border-end border-dark">
                   <div class="w-100 h-100">
                       <div class="row mx-0 h-100"> 
-                        <div class="col-6 border-end border-dark">مجموع امتیازها=</div>
+                        <div class="col-6 border-end border-dark bg-info">مجموع امتیازها=</div>
                         <div class="col-6 th">0.00</div>
                       </div>
                   </div>
