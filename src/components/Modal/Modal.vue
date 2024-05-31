@@ -5,7 +5,7 @@
        <div v-show="modalActive" class="modal-inner max-w-50 mx-auto my-5 bg-secondary rounded-20">
           <div class="py-4 position-relative">
             <div @click="closeModal"
-            class="ms-4 position-absolute end-0 top-12 cursor-pointer"
+            class="ms-4 position-absolute end-0 top-12 cursor-pointer fs-1-7vw"
           >
           ❌
           </div>

@@ -2,58 +2,12 @@
     <!-- modal -->
     <Modal @closeModal="toggleModal" :modalActive="modalActive">
     <div class="p-4">
-      <h2 class="text-dark fs-15vw font-bold -mt-33">اقتصادی بودن اندازه</h2>
+      <h2 class="text-dark fs-15vw font-bold -mt-33">افزودن معیار جدید</h2>
       <div class="mt-4">
         <input
-          placeholder="جستجو..."
-          class="outline-none rounded-8vw border border-dark w-100 p-2 fs-1vw fw-bold bg-white"
+          placeholder="نام معیار"
+          class="outline-none rounded-8vw text-end border border-dark w-100 p-3 fs-1vw fw-bold bg-white"
         />
-        <div class="table-responsive fs-1vw fw-bold mt-3">
-          <div class="rounded-8vw overflow-hidden border border-dark">
-            <div
-              class="row align-items-stretch fs-1-2vw mx-0 text-center bg-info text-white"
-            >
-              <div class="col-2 th">انتخاب</div>
-              <div class="col-2 th">کد</div>
-              <div class="col-8 th">عنوان</div>
-            </div>
-            <div
-                  class="row align-items-stretch mx-0 text-center bg-white border-bottom"
-                >
-                  <div class="col-2 th2"><input type="radio" name="name" class="form-check-input cursor-pointer"></div>
-                  <div class="col-2 th2">76</div>
-                  <div class="col-8 th2">غیرجذاب</div>
-            </div>
-            <div
-                  class="row align-items-stretch mx-0 text-center bg-white border-bottom"
-                >
-                  <div class="col-2 th2"><input type="radio" name="name" class="form-check-input cursor-pointer"></div>
-                  <div class="col-2 th2">82</div>
-                  <div class="col-8 th2">غیرجذاب متوسط</div>
-            </div>
-            <div
-                  class="row align-items-stretch mx-0 text-center bg-white border-bottom"
-                >
-                  <div class="col-2 th2"><input type="radio" name="name" class="form-check-input cursor-pointer"></div>
-                  <div class="col-2 th2">90</div>
-                  <div class="col-8 th2">بی تفاوت</div>
-            </div>
-            <div
-                  class="row align-items-stretch mx-0 text-center bg-white border-bottom"
-                >
-                  <div class="col-2 th2"><input type="radio" name="name" class="form-check-input cursor-pointer"></div>
-                  <div class="col-2 th2">39</div>
-                  <div class="col-8 th2">جذاب متوسط</div>
-            </div>
-            <div
-                  class="row align-items-stretch mx-0 text-center bg-white border-bottom"
-                >
-                  <div class="col-2 th2"><input type="radio" name="name" class="form-check-input cursor-pointer"></div>
-                  <div class="col-2 th2">54</div>
-                  <div class="col-8 th2">جذاب </div>
-            </div>
-          </div>
-        </div>
       </div>
       <!--  -->
       <div class="d-flex align-items-center justify-content-center mt-4 gap-4">
@@ -61,6 +15,11 @@
           type="submit"
           value="تایید"
           class="w-8vw h-3vw bg-info d-flex align-items-center justify-content-center border-0 rounded-8 text-white fs-15vw fw-bold"
+        />
+        <input
+          type="submit"
+          value="لغو"
+          class="w-8vw h-3vw bg-danger d-flex align-items-center justify-content-center border-0 rounded-8 text-white fs-15vw fw-bold"
         />
       </div>
     </div>
@@ -80,7 +39,7 @@
                   <div class="w-100">
                     <p class="mb-0 position-relative top-1vw">تبیین معیارهای اهمیت هر شاخص</p>
                     <div class="position-relative">
-                      <span title="افزودن معیار" @click="addMeayar" class="bg-warning activeEffect fs-1-4vw rounded-circle -end-1 position-absolute fw-bold w-10 h-10 d-flex align-items-center justify-content-center cursor-pointer">+</span>
+                      <span title="افزودن معیار"  @click="toggleModal" class="bg-warning activeEffect fs-1-4vw rounded-circle -end-1 position-absolute fw-bold w-10 h-10 d-flex align-items-center justify-content-center cursor-pointer">+</span>
                       <div class="row flex-nowrap overflow-x-auto mx-0 border-top border-white mt-5"> 
                         <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-white">معیار {{index+1}}</div>
                       </div>

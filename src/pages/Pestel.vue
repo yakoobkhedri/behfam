@@ -67,7 +67,7 @@
   </Modal>
   <main>
       <aos-vue>
-        <!-- <section>
+         <section>
           <div class="container p-5">
             <h2 class="text-center fw-bold border-bottom py-4">
               تحلیل تازه واردین
@@ -270,114 +270,8 @@
               </div>
             </div>
           </div>
-        </section> -->
-       <section>
-         <div class="container p-4">
-          <h2 class="text-center fw-bold py-4">ﺟﺪﻭﻝ ﺍﺭﺯﻳﺎﺑﻲ ﻣﻮﺍﺭﺩ ﻓﺮﺻﺖ ﻭ ﺗﻬﺪﻳﺪ ﻫﻠﺪﻳﻨگ/ﺷﺮکﺖ</h2>
-          <h4 class="text-center fw-bold text-info">متغیر سیاسی</h4>
-           <div data-aos="fade-up" class="rounded-8vw text-center fs-1-1vw border shadow overflow-hidden"> 
-              <div class="bg-info text-white fw-bold row mx-0 align-items-cente">
-                <div class="col-1 th">ردیف</div>
-                <div class="col-1 th">شاخص ها</div>
-                <div class="col-2 th px-0 pb-0">
-                  <div class="w-100">
-                    <p class="mb-0 position-relative top-1vw">تبیین معیارهای اهمیت هر شاخص</p>
-                    <div class="row mx-0 border-top border-white mt-5"> 
-                      <div class="col-4 border-end border-white">معیار 1</div>
-                      <div class="col-4 border-end border-white">معیار 2</div>
-                      <div class="col-4">معیار 3</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-1 th">ضریب اهمیت</div>
-                <div class="col-1 th">نسبت وزنی</div>
-                <div class="col-3 th px-0 pb-0">
-                  <div class="w-100">
-                    <p class="mb-0 position-relative top-1vw">تبیین فرصت ها و تهدیدات</p>
-                    <div class="row mx-0 border-top border-white mt-5"> 
-                      <div class="col-6 border-end border-white">فرصت ها</div>
-                      <div class="col-6">تهدیدها</div>
-                    </div>
-                 </div>
-                </div>
-                <div class="col-1 th px-0 pb-0">
-                  <div class="w-100">
-                      <p class="mb-0 px-2">میزان جذابیت (تهدید یا فرصت)</p>
-                      <div class="row mx-0 border-top border-white mt-3"> 
-                        <div class="col-6 border-end border-white">نمره</div>
-                        <div class="col-6">امتیاز</div>
-                      </div>
-                  </div>
-                </div>
-                <div class="col-1 th px-0 pb-0">
-                  <div class="w-100">
-                      <p class="mb-0 px-2">نحوﻩ پاﺳﺨگﻮﻳﻲ ﺩﺭ ﻭﺿﻊ موجود</p>
-                      <div class="row mx-0 border-top border-white mt-3"> 
-                        <div class="col-6 border-end border-white">نمره</div>
-                        <div class="col-6">امتیاز</div>
-                      </div>
-                  </div>
-                </div>
-                <div class="col-1 th px-0 pb-0">
-                  <div class="w-100">
-                      <p class="mb-0 px-2">نحوﻩ پاﺳﺨگﻮﻳﻲ ﺩﺭ ﻭﺿﻊ ﺁﺗﻲ</p>
-                      <div class="row mx-0 border-top border-white mt-3"> 
-                        <div class="col-6 border-end border-white">نمره</div>
-                        <div class="col-6">امتیاز</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div class="bg-white text-dark fw-bold row mx-0 align-items-cente">
-                <div class="col-1 th2">ردیف</div>
-                <div class="col-1 th2">شاخص ها</div>
-                <div class="col-2 th2">
-                  <div class="w-100">
-                    <div class="row mx-0"> 
-                      <div class="col-4 border-end border-dark">معیار 1</div>
-                      <div class="col-4 border-end border-dark">معیار 2</div>
-                      <div class="col-4">معیار 3</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-1 th2">ضریب اهمیت</div>
-                <div class="col-1 th2">نسبت وزنی</div>
-                <div class="col-3 th2">
-                  <div class="w-100">
-                    <div class="row mx-0"> 
-                      <div class="col-6 border-end border-dark">فرصت ها</div>
-                      <div class="col-6">تهدیدها</div>
-                    </div>
-                 </div>
-                </div>
-                <div class="col-1 th2">
-                  <div class="w-100">
-                      <div class="row mx-0"> 
-                        <div class="col-6 border-end border-dark">نمره</div>
-                        <div class="col-6">امتیاز</div>
-                      </div>
-                  </div>
-                </div>
-                <div class="col-1 th2">
-                  <div class="w-100">
-                      <div class="row mx-0"> 
-                        <div class="col-6 border-end border-dark">نمره</div>
-                        <div class="col-6">امتیاز</div>
-                      </div>
-                  </div>
-                </div>
-                <div class="col-1 th2">
-                  <div class="w-100">
-                      <div class="row mx-0"> 
-                        <div class="col-6 border-end border-dark">نمره</div>
-                        <div class="col-6">امتیاز</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-           </div>
-         </div>
-       </section>
+        </section>
+
       </aos-vue>
   </main>
 </template>
