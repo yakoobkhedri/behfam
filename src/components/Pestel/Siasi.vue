@@ -131,10 +131,8 @@
                 <div class="col-1 th2 bg-info border-end border-white">رابطه ایران با کشورهای هدف</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                    <div class="row mx-0 h-100"> 
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
+                    <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                      <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
                 </div>
@@ -178,10 +176,8 @@
                 <div class="col-1 th2 bg-info border-end border-white">شرایط سیاسی کشورها</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                    <div class="row mx-0 h-100"> 
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
+                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                      <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
                 </div>
@@ -225,10 +221,8 @@
                 <div class="col-1 th2 bg-info border-end border-white">تحریم</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                    <div class="row mx-0 h-100"> 
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
+                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                      <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
                 </div>
@@ -272,10 +266,8 @@
                 <div class="col-1 th2 bg-info border-end border-white">تغییر و تحولات سیاسی داخلی</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                    <div class="row mx-0 h-100"> 
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
+                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                      <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
                 </div>
@@ -319,10 +311,8 @@
                 <div class="col-1 th2 bg-info border-end border-white">سیاست ها و پیمان های منطقه ای و جهانی</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                    <div class="row mx-0 h-100"> 
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
+                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                      <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
                 </div>
@@ -366,10 +356,8 @@
                 <div class="col-1 th2 bg-info border-end border-white">سیاست های صادرات</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                    <div class="row mx-0 h-100"> 
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
+                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                      <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
                 </div>
@@ -413,10 +401,8 @@
                 <div class="col-1 th2 bg-info border-end border-white">سیاست های واردات</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                    <div class="row mx-0 h-100"> 
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4 border-end border-dark"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
-                      <div class="col-4"><textarea class="w-100 outline-none resize-none border-0"></textarea></div>
+                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                      <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
                 </div>
@@ -517,7 +503,7 @@ const modalActive = ref(false);
 const meayars= ref([1,2,3]);
 
 function addMeayar() {
-  meayars.value.length++
+  meayars.value.length+=1
 }
 
 const toggleModal = () => {
