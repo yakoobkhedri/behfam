@@ -25059,6 +25059,18 @@ label{
 }
 
 /* new styles */
+.meayar div:last-child{
+    border-left: 0!important;
+}
+.activeEffect{
+    transition: all .4s;
+}
+.activeEffect:active{
+    transform: scale(.9);
+}
+.activeEffect:hover{
+    background-color: rgb(230, 157, 0) !important;
+}
 .h-10{
     height: 1.8vw;
 }

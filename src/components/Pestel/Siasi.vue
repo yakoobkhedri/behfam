@@ -80,7 +80,7 @@
                   <div class="w-100">
                     <p class="mb-0 position-relative top-1vw">تبیین معیارهای اهمیت هر شاخص</p>
                     <div class="position-relative">
-                      <span title="افزودن معیار" @click="addMeayar" class="bg-warning rounded-circle -end-1 position-absolute fw-bold w-10 h-10 d-flex align-items-center justify-content-center cursor-pointer">+</span>
+                      <span title="افزودن معیار" @click="addMeayar" class="bg-warning activeEffect fs-1-4vw rounded-circle -end-1 position-absolute fw-bold w-10 h-10 d-flex align-items-center justify-content-center cursor-pointer">+</span>
                       <div class="row flex-nowrap overflow-x-auto mx-0 border-top border-white mt-5"> 
                         <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-white">معیار {{index+1}}</div>
                       </div>
@@ -90,36 +90,36 @@
                 <div class="col-1 th">ضریب اهمیت</div>
                 <div class="col-1 th">نسبت وزنی</div>
                 <div class="col-3 th px-0 pb-0">
-                  <div class="w-100">
+                  <div class="w-100 h-100">
                     <p class="mb-0 position-relative top-1vw">تبیین فرصت ها و تهدیدات</p>
-                    <div class="row mx-0 border-top border-white mt-5"> 
+                    <div class="row mx-0 border-top border-white mt-5 h-100"> 
                       <div class="col-6 border-end border-white">فرصت ها</div>
                       <div class="col-6">تهدیدها</div>
                     </div>
                  </div>
                 </div>
                 <div class="col-1 th px-0 pb-0">
-                  <div class="w-100">
+                  <div class="w-100 h-100">
                       <p class="mb-0 px-2">میزان جذابیت (تهدید یا فرصت)</p>
-                      <div class="row mx-0 border-top border-white mt-3"> 
+                      <div class="row mx-0 border-top border-white mt-3 h-100"> 
                         <div class="col-6 border-end border-white">نمره</div>
                         <div class="col-6">امتیاز</div>
                       </div>
                   </div>
                 </div>
                 <div class="col-1 th px-0 pb-0">
-                  <div class="w-100">
+                  <div class="w-100 h-100">
                       <p class="mb-0 px-2">نحوﻩ پاﺳﺨگﻮﻳﻲ ﺩﺭ ﻭﺿﻊ موجود</p>
-                      <div class="row mx-0 border-top border-white mt-3"> 
+                      <div class="row mx-0 border-top border-white mt-3 h-100"> 
                         <div class="col-6 border-end border-white">نمره</div>
                         <div class="col-6">امتیاز</div>
                       </div>
                   </div>
                 </div>
                 <div class="col-1 th px-0 pb-0">
-                  <div class="w-100">
+                  <div class="w-100 h-100">
                       <p class="mb-0 px-2">نحوﻩ پاﺳﺨگﻮﻳﻲ ﺩﺭ ﻭﺿﻊ ﺁﺗﻲ</p>
-                      <div class="row mx-0 border-top border-white mt-3"> 
+                      <div class="row mx-0 border-top border-white mt-3 h-100"> 
                         <div class="col-6 border-end border-white">نمره</div>
                         <div class="col-6">امتیاز</div>
                       </div>
@@ -131,7 +131,7 @@
                 <div class="col-1 th2 bg-info border-end border-white">رابطه ایران با کشورهای هدف</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                    <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                    <div class="row flex-nowrap meayar overflow-x-auto mx-0 h-100"> 
                       <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
@@ -176,7 +176,7 @@
                 <div class="col-1 th2 bg-info border-end border-white">شرایط سیاسی کشورها</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                   <div class="row flex-nowrap meayar overflow-x-auto mx-0 h-100"> 
                       <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
@@ -221,7 +221,7 @@
                 <div class="col-1 th2 bg-info border-end border-white">تحریم</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                   <div class="row flex-nowrap meayar overflow-x-auto mx-0 h-100"> 
                       <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
@@ -266,7 +266,7 @@
                 <div class="col-1 th2 bg-info border-end border-white">تغییر و تحولات سیاسی داخلی</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                   <div class="row flex-nowrap meayar overflow-x-auto mx-0 h-100"> 
                       <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
@@ -311,7 +311,7 @@
                 <div class="col-1 th2 bg-info border-end border-white">سیاست ها و پیمان های منطقه ای و جهانی</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                   <div class="row flex-nowrap meayar overflow-x-auto mx-0 h-100"> 
                       <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
@@ -356,7 +356,7 @@
                 <div class="col-1 th2 bg-info border-end border-white">سیاست های صادرات</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                   <div class="row flex-nowrap meayar overflow-x-auto mx-0 h-100"> 
                       <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
@@ -401,7 +401,7 @@
                 <div class="col-1 th2 bg-info border-end border-white">سیاست های واردات</div>
                 <div class="col-2 th2 p-0">
                   <div class="w-100 h-100">
-                   <div class="row flex-nowrap overflow-x-auto mx-0 h-100"> 
+                   <div class="row flex-nowrap meayar overflow-x-auto mx-0 h-100"> 
                       <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-dark"><textarea :placeholder="'معیار'+(index+1)" class="w-100 outline-none resize-none border-0"></textarea></div>
                     </div>
                   </div>
@@ -465,7 +465,7 @@
                 <div class="col-1 th2 p-0 border-end border-dark">
                   <div class="w-100 h-100">
                       <div class="row mx-0 h-100"> 
-                        <div class="col-6 border-end border-dark bg-info">مجموع امتیازها=</div>
+                        <div class="col-6 border-end border-dark bg-info">مجموع امتیازها</div>
                         <div class="col-6 th">0.00</div>
                       </div>
                   </div>
@@ -473,7 +473,7 @@
                 <div class="col-1 th2 p-0 border-end border-dark">
                   <div class="w-100 h-100">
                       <div class="row mx-0 h-100"> 
-                        <div class="col-6 border-end border-dark bg-info">مجموع امتیازها=</div>
+                        <div class="col-6 border-end border-dark bg-info">مجموع امتیازها</div>
                         <div class="col-6 th">0.00</div>
                       </div>
                   </div>
@@ -481,7 +481,7 @@
                 <div class="col-1 th2 p-0">
                   <div class="w-100 h-100">
                       <div class="row mx-0 h-100"> 
-                        <div class="col-6 border-end border-dark bg-info">مجموع امتیازها=</div>
+                        <div class="col-6 border-end border-dark bg-info">مجموع امتیازها</div>
                         <div class="col-6 th">0.00</div>
                       </div>
                   </div>
