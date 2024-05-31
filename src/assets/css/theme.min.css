@@ -25059,8 +25059,17 @@ label{
 }
 
 /* new styles */
+.h-10{
+    height: 1.8vw;
+}
+.w-10{
+    width: 1.8vw;
+}
 .w-51vw{
     width: 51vw;
+}
+.-end-1{
+    left: -1vw;
 }
 .mr-auto{
     margin-right: auto;
@@ -25084,4 +25093,7 @@ label{
 }
 input{
     text-align: center;
+}
+.overflow-x-auto{
+    overflow-x: auto;
 }

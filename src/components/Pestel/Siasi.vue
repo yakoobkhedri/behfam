@@ -79,10 +79,11 @@
                 <div class="col-2 th px-0 pb-0">
                   <div class="w-100">
                     <p class="mb-0 position-relative top-1vw">تبیین معیارهای اهمیت هر شاخص</p>
-                    <div class="row mx-0 border-top border-white mt-5"> 
-                      <div class="col-4 border-end border-white">معیار 1</div>
-                      <div class="col-4 border-end border-white">معیار 2</div>
-                      <div class="col-4">معیار 3</div>
+                    <div class="position-relative">
+                      <span title="افزودن معیار" @click="addMeayar" class="bg-warning rounded-circle -end-1 position-absolute fw-bold w-10 h-10 d-flex align-items-center justify-content-center cursor-pointer">+</span>
+                      <div class="row flex-nowrap overflow-x-auto mx-0 border-top border-white mt-5"> 
+                        <div v-for="(meayar,index) in meayars" :key="index" class="col-4 border-end border-white">معیار {{index+1}}</div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -513,6 +514,11 @@ import { ref } from "vue";
 import Modal from "@/components/Modal/Modal.vue";
 
 const modalActive = ref(false);
+const meayars= ref([1,2,3]);
+
+function addMeayar() {
+  meayars.value.length++
+}
 
 const toggleModal = () => {
   modalActive.value = !modalActive.value;
