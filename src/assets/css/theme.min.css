@@ -25059,10 +25059,16 @@ label{
 }
 
 /* new styles */
+.top-2{
+    top: 2vw;
+}
+.hover1:hover{
+    background-color: #f5f4f8;
+}
 .meayar div:last-child{
     border-left: 0!important;
 }
-.activeEffect{
+.activeEffect,.transition{
     transition: all .4s;
 }
 .activeEffect:active{
@@ -25073,6 +25079,12 @@ label{
 }
 .h-10{
     height: 1.8vw;
+}
+.w-2{
+    width: 2vw;
+}
+.w-9{
+    width: 9vw;
 }
 .w-10{
     width: 1.8vw;
