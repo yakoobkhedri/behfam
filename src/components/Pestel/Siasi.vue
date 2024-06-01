@@ -21,11 +21,13 @@
           value="لغو"
           class="w-8vw h-3vw bg-danger d-flex align-items-center justify-content-center border-0 rounded-8 text-white fs-15vw fw-bold"
         />
-        <div class="position-relative">
+        <div class="position-relative DropdownArea">
+          <transition name="fade">
           <ul v-show="openDropDown" class="position-absolute transition top-2 bg-white rounded-8vw list-unstyled p-0 py-2 m-0 fs-15vw w-9">
             <li class="px-3 cursor-pointer hover1">ویرایش</li>
             <li class="px-3 cursor-pointer hover1">حذف</li>
           </ul>
+          </transition>
           <svg @click="toggleDropDown"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -78,7 +80,7 @@
                         :key="index"
                         class="col-4 border-end border-white"
                       >
-                        معیار {{ index + 1 }}
+                         {{ meayar }}
                       </div>
                     </div>
                   </div>
@@ -775,8 +777,9 @@
 </template>
 
 <script setup >
-import { ref } from "vue";
+import { onMounted, ref } from "vue";
 import Modal from "@/components/Modal/Modal.vue";
+import Swal from "sweetalert2";
 
 const modalActive = ref(false);
 const meayars = ref(['معیار اول', 'معیار دوم', 'معیار سوم']);
@@ -787,6 +790,17 @@ function addMeayar() {
   if (MeayarName.value) {
     modalActive.value = false;
     meayars.value.push(MeayarName.value);
+    MeayarName.value='';
+  }else{
+    Swal.fire({
+      title: "لطفا فیلد نام معیار را پر کنید!",
+      icon: "warning",
+      toast: true,
+      timer: 3000,
+      position: "top",
+      timerProgressBar: true,
+      showConfirmButton: false,
+    });
   }
 }
 const toggleDropDown = () => {
@@ -795,7 +809,22 @@ const toggleDropDown = () => {
 const toggleModal = () => {
   modalActive.value = !modalActive.value;
 };
+onMounted(()=>{
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".DropdownArea")) {
+      openDropDown.value = false;
+    }
+  });
+})
 </script>
 
 <style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.6s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
 </style>
